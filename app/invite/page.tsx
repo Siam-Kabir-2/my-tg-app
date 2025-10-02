@@ -1,16 +1,22 @@
 "use client";
-import { useTelegram } from "@/hooks/useTelegram";
+import React from "react";
 
 export default function InvitePage() {
-  const { webApp } = useTelegram();
-
   const handleInvite = () => {
-    if (webApp && typeof webApp.shareApp === "function") {
-      webApp.shareApp({
-        message: "🚀 Join me in the $SIA Coin Telegram Mini App and earn coins! " + window.location.origin,
-      });
+    const botUsername = "YourBotUsername"; // replace with your bot username
+    const url = `https://t.me/${botUsername}?start=invite`;
+
+    if (window.navigator.userAgent.includes("Telegram")) {
+      // inside Telegram, open share URL
+      window.open(
+        `https://t.me/share/url?url=${encodeURIComponent(url)}&text=${encodeURIComponent("🚀 Join me in $SIA Coin Telegram Mini App and earn coins!")}`,
+        "_blank"
+      );
     } else {
-      alert("Telegram share not available. Open inside Telegram app.");
+      // fallback for web
+      navigator.clipboard.writeText(url).then(() => {
+        alert("Invite link copied to clipboard!");
+      });
     }
   };
 
