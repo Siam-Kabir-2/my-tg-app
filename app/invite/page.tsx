@@ -3,7 +3,7 @@ import React from "react";
 
 export default function InvitePage() {
   const handleInvite = () => {
-    const botUsername = "@siamcoin_bot"; // replace with your bot username
+    const botUsername = "siamcoin_bot"; // replace with your bot username
     const url = `https://t.me/${botUsername}?start=invite`;
 
     if (window.navigator.userAgent.includes("Telegram")) {
