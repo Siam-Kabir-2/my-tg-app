@@ -8,6 +8,15 @@ importers:
 
   .:
     dependencies:
+      '@ton/core':
+        specifier: ^0.62.0
+        version: 0.62.0(@ton/crypto@3.3.0)
+      '@tonconnect/sdk':
+        specifier: ^3.3.1
+        version: 3.3.1
+      '@tonconnect/ui-react':
+        specifier: ^2.3.1
+        version: 2.3.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       lucide-react:
         specifier: ^0.544.0
         version: 0.544.0(react@19.1.0)
@@ -337,6 +346,38 @@ packages:
   '@tailwindcss/postcss@4.1.13':
     resolution: {integrity: sha512-HLgx6YSFKJT7rJqh9oJs/TkBFhxuMOfUKSBEPYwV+t78POOBsdQ7crhZLzwcH3T0UyUuOzU/GK5pk5eKr3wCiQ==}
 
+  '@ton/core@0.62.0':
+    resolution: {integrity: sha512-GCYlzzx11rSESKkiHvNy9tL8zWth+ZtUbvV29WH478FvBp8xTw24AyoigwXWNV+OLCAcnwlGhZpTpxjD3wzCwA==}
+    peerDependencies:
+      '@ton/crypto': '>=3.2.0'
+
+  '@ton/crypto-primitives@2.1.0':
+    resolution: {integrity: sha512-PQesoyPgqyI6vzYtCXw4/ZzevePc4VGcJtFwf08v10OevVJHVfW238KBdpj1kEDQkxWLeuNHEpTECNFKnP6tow==}
+
+  '@ton/crypto@3.3.0':
+    resolution: {integrity: sha512-/A6CYGgA/H36OZ9BbTaGerKtzWp50rg67ZCH2oIjV1NcrBaCK9Z343M+CxedvM7Haf3f/Ee9EhxyeTp0GKMUpA==}
+
+  '@tonconnect/isomorphic-eventsource@0.0.2':
+    resolution: {integrity: sha512-B4UoIjPi0QkvIzZH5fV3BQLWrqSYABdrzZQSI9sJA9aA+iC0ohOzFwVVGXanlxeDAy1bcvPbb29f6sVUk0UnnQ==}
+
+  '@tonconnect/isomorphic-fetch@0.0.3':
+    resolution: {integrity: sha512-jIg5nTrDwnite4fXao3dD83eCpTvInTjZon/rZZrIftIegh4XxyVb5G2mpMqXrVGk1e8SVXm3Kj5OtfMplQs0w==}
+
+  '@tonconnect/protocol@2.3.0':
+    resolution: {integrity: sha512-OxrmcXF/EsSdGeASP9VpTRojuMtTV87DKYFLRq4ZJvF/Hirfm2cgcxzzj2uksEGm5IIR010UWo6b38RuokNwFQ==}
+
+  '@tonconnect/sdk@3.3.1':
+    resolution: {integrity: sha512-lhXJu95VvbD36u5mMPg2sg+w4GQwkrYnHeJ8rVveu2N7UPwt0jvrEqKlvf7Ss1gh5RDtzs35SS3GbJlaIOAJNA==}
+
+  '@tonconnect/ui-react@2.3.1':
+    resolution: {integrity: sha512-dAMqNG5X8Llh1m3eIOvIQlXgMazrZrmnQGefJmlmyghwwGydR0O9NGpW7I7s2CN24usAaRGX8mVJPemsa2oHSQ==}
+    peerDependencies:
+      react: '>=17.0.0'
+      react-dom: '>=17.0.0'
+
+  '@tonconnect/ui@2.3.1':
+    resolution: {integrity: sha512-G1hKn5TrqFYztbR94EG8YuhGUpp7wY8PjC1Fu7/d8rFg7XnPGlUcGmuqH8+2lYrb9Ms0M7v6+5U6S4q4+yCQtQ==}
+
   '@types/node@20.19.18':
     resolution: {integrity: sha512-KeYVbfnbsBCyKG8e3gmUqAfyZNcoj/qpEbHRkQkfZdKOBrU7QQ+BsTdfqLSWX9/m1ytYreMhpKvp+EZi3UFYAg==}
 
@@ -355,11 +396,18 @@ packages:
     resolution: {integrity: sha512-+IxzY9BZOQd/XuYPRmrvEVjF/nqj5kgT4kEq7VofrDoM1MxoRjEWkrCC3EtLi59TVawxTAn+orJwFQcrqEN1+g==}
     engines: {node: '>=18'}
 
+  classnames@2.5.1:
+    resolution: {integrity: sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow==}
+
   client-only@0.0.1:
     resolution: {integrity: sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==}
 
   csstype@3.1.3:
     resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
+
+  deepmerge@4.3.1:
+    resolution: {integrity: sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==}
+    engines: {node: '>=0.10.0'}
 
   detect-libc@2.1.1:
     resolution: {integrity: sha512-ecqj/sy1jcK1uWrwpR67UhYrIFQ+5WlGxth34WquCbamhFA6hkkwiu37o6J5xCHdo1oixJRfVRw+ywV+Hq/0Aw==}
@@ -369,12 +417,19 @@ packages:
     resolution: {integrity: sha512-d4lC8xfavMeBjzGr2vECC3fsGXziXZQyJxD868h2M/mBI3PwAuODxAkLkq5HYuvrPYcUtiLzsTo8U3PgX3Ocww==}
     engines: {node: '>=10.13.0'}
 
+  eventsource@2.0.2:
+    resolution: {integrity: sha512-IzUmBGPR3+oUG9dUeXynyNmf91/3zUSJg1lCktzKw47OXuhco54U3r9B7O4XX+Rb1Itm9OZ2b0RkTs10bICOxA==}
+    engines: {node: '>=12.0.0'}
+
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
 
   jiti@2.6.0:
     resolution: {integrity: sha512-VXe6RjJkBPj0ohtqaO8vSWP3ZhAKo66fKrFNCll4BTcwljPLz03pCbaNKfzGP5MbrCYcbJ7v0nOYYwUzTEIdXQ==}
     hasBin: true
+
+  jssha@3.2.0:
+    resolution: {integrity: sha512-QuruyBENDWdN4tZwJbQq7/eAK85FqrI4oDbXjy5IBhYD+2pTJyBUWZe8ctWaCkrV0gy6AaelgOZZBMeswEa/6Q==}
 
   lightningcss-darwin-arm64@1.30.1:
     resolution: {integrity: sha512-c8JK7hyE65X1MHMN+Viq9n11RRC7hgin3HhYKhrMyaXflk5GVplZ60IxyoVtzILeKr+xAJwg6zK6sjTBJ0FKYQ==}
@@ -482,6 +537,15 @@ packages:
       sass:
         optional: true
 
+  node-fetch@2.7.0:
+    resolution: {integrity: sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==}
+    engines: {node: 4.x || >=6.0.0}
+    peerDependencies:
+      encoding: ^0.1.0
+    peerDependenciesMeta:
+      encoding:
+        optional: true
+
   picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
 
@@ -531,6 +595,9 @@ packages:
       babel-plugin-macros:
         optional: true
 
+  symbol.inspect@1.0.1:
+    resolution: {integrity: sha512-YQSL4duoHmLhsTD1Pw8RW6TZ5MaTX5rXJnqacJottr2P2LZBF/Yvrc3ku4NUpMOm8aM0KOCqM+UAkMA5HWQCzQ==}
+
   tailwindcss@4.1.13:
     resolution: {integrity: sha512-i+zidfmTqtwquj4hMEwdjshYYgMbOrPzb9a0M3ZgNa0JMoZeFC6bxZvO8yr8ozS6ix2SDz0+mvryPeBs2TFE+w==}
 
@@ -542,16 +609,35 @@ packages:
     resolution: {integrity: sha512-nlGpxf+hv0v7GkWBK2V9spgactGOp0qvfWRxUMjqHyzrt3SgwE48DIv/FhqPHJYLHpgW1opq3nERbz5Anq7n1g==}
     engines: {node: '>=18'}
 
+  tr46@0.0.3:
+    resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
+
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
+
+  tweetnacl-util@0.15.1:
+    resolution: {integrity: sha512-RKJBIj8lySrShN4w6i/BonWp2Z/uxwC3h4y7xsRrpP59ZboCd0GpEVsOnMDYLMmKBpYhb5TgHzZXy7wTfYFBRw==}
+
+  tweetnacl@1.0.3:
+    resolution: {integrity: sha512-6rt+RN7aOi1nGMyC4Xa5DdYiukl2UWCbcJft7YhxReBGQD7OAM8Pbxw6YMo4r2diNEA8FEmu32YOn9rhaiE5yw==}
 
   typescript@5.9.2:
     resolution: {integrity: sha512-CWBzXQrc/qOkhidw1OzBTQuYRbfyxDXJMVJ1XNwUHGROVmuaeiEm3OslpZ1RV96d7SKKjZKrSJu3+t/xlw3R9A==}
     engines: {node: '>=14.17'}
     hasBin: true
 
+  ua-parser-js@1.0.41:
+    resolution: {integrity: sha512-LbBDqdIC5s8iROCUjMbW1f5dJQTEFB1+KO9ogbvlb3nm9n4YHa5p4KTvFPWvh2Hs8gZMBuiB1/8+pdfe/tDPug==}
+    hasBin: true
+
   undici-types@6.21.0:
     resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
+
+  webidl-conversions@3.0.1:
+    resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}
+
+  whatwg-url@5.0.0:
+    resolution: {integrity: sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==}
 
   yallist@5.0.0:
     resolution: {integrity: sha512-YgvUTfwqyc7UXVMrB+SImsVYSmTS8X/tSrtdNZMImM+n7+QTriRXyXim0mBrTXNeqzVF0KWGgHPeiyViFFrNDw==}
@@ -780,6 +866,62 @@ snapshots:
       postcss: 8.5.6
       tailwindcss: 4.1.13
 
+  '@ton/core@0.62.0(@ton/crypto@3.3.0)':
+    dependencies:
+      '@ton/crypto': 3.3.0
+      symbol.inspect: 1.0.1
+
+  '@ton/crypto-primitives@2.1.0':
+    dependencies:
+      jssha: 3.2.0
+
+  '@ton/crypto@3.3.0':
+    dependencies:
+      '@ton/crypto-primitives': 2.1.0
+      jssha: 3.2.0
+      tweetnacl: 1.0.3
+
+  '@tonconnect/isomorphic-eventsource@0.0.2':
+    dependencies:
+      eventsource: 2.0.2
+
+  '@tonconnect/isomorphic-fetch@0.0.3':
+    dependencies:
+      node-fetch: 2.7.0
+    transitivePeerDependencies:
+      - encoding
+
+  '@tonconnect/protocol@2.3.0':
+    dependencies:
+      tweetnacl: 1.0.3
+      tweetnacl-util: 0.15.1
+
+  '@tonconnect/sdk@3.3.1':
+    dependencies:
+      '@tonconnect/isomorphic-eventsource': 0.0.2
+      '@tonconnect/isomorphic-fetch': 0.0.3
+      '@tonconnect/protocol': 2.3.0
+    transitivePeerDependencies:
+      - encoding
+
+  '@tonconnect/ui-react@2.3.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+    dependencies:
+      '@tonconnect/ui': 2.3.1
+      react: 19.1.0
+      react-dom: 19.1.0(react@19.1.0)
+    transitivePeerDependencies:
+      - encoding
+
+  '@tonconnect/ui@2.3.1':
+    dependencies:
+      '@tonconnect/sdk': 3.3.1
+      classnames: 2.5.1
+      csstype: 3.1.3
+      deepmerge: 4.3.1
+      ua-parser-js: 1.0.41
+    transitivePeerDependencies:
+      - encoding
+
   '@types/node@20.19.18':
     dependencies:
       undici-types: 6.21.0
@@ -796,9 +938,13 @@ snapshots:
 
   chownr@3.0.0: {}
 
+  classnames@2.5.1: {}
+
   client-only@0.0.1: {}
 
   csstype@3.1.3: {}
+
+  deepmerge@4.3.1: {}
 
   detect-libc@2.1.1: {}
 
@@ -807,9 +953,13 @@ snapshots:
       graceful-fs: 4.2.11
       tapable: 2.2.3
 
+  eventsource@2.0.2: {}
+
   graceful-fs@4.2.11: {}
 
   jiti@2.6.0: {}
+
+  jssha@3.2.0: {}
 
   lightningcss-darwin-arm64@1.30.1:
     optional: true
@@ -895,6 +1045,10 @@ snapshots:
       - '@babel/core'
       - babel-plugin-macros
 
+  node-fetch@2.7.0:
+    dependencies:
+      whatwg-url: 5.0.0
+
   picocolors@1.1.1: {}
 
   postcss@8.4.31:
@@ -958,6 +1112,8 @@ snapshots:
       client-only: 0.0.1
       react: 19.1.0
 
+  symbol.inspect@1.0.1: {}
+
   tailwindcss@4.1.13: {}
 
   tapable@2.2.3: {}
@@ -970,10 +1126,25 @@ snapshots:
       minizlib: 3.1.0
       yallist: 5.0.0
 
+  tr46@0.0.3: {}
+
   tslib@2.8.1: {}
+
+  tweetnacl-util@0.15.1: {}
+
+  tweetnacl@1.0.3: {}
 
   typescript@5.9.2: {}
 
+  ua-parser-js@1.0.41: {}
+
   undici-types@6.21.0: {}
+
+  webidl-conversions@3.0.1: {}
+
+  whatwg-url@5.0.0:
+    dependencies:
+      tr46: 0.0.3
+      webidl-conversions: 3.0.1
 
   yallist@5.0.0: {}
