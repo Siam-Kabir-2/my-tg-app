@@ -18,7 +18,7 @@ export default function RootLayout({
         />
         <div id="app-root">
           {" "}
-          <TonConnectUIProvider manifestUrl="https://azure-dear-lizard-134.mypinata.cloud/ipfs/bafkreibofxuwj6gsjzxtoe4izyn5nfbn7f2tleswhn7vb4xcc7napbarde">
+          <TonConnectUIProvider manifestUrl="https://azure-dear-lizard-134.mypinata.cloud/ipfs/bafkreiftyghsq2hmw2ob7zmnd7ks6s6rus5djefhcefelyhoilma2ulfg4">
             {children}
           </TonConnectUIProvider>
         </div>

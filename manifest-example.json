@@ -1,7 +1,0 @@
-{
-  "name": "Connect TON Wallet",
-  "description": "Invite friends, earn coins, and play with $SIA Token",
-  "icon": "https://azure-dear-lizard-134.mypinata.cloud/ipfs/bafkreifioapijaihuqgylyddefhbdlq3pcauod372u4x7tt5pt3fkgbkye",
-  "start_url": "https://siam-token.vercel.app/",
-  "redirect_url": "https://siam-token.vercel.app/"
-}
