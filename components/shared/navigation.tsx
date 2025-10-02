@@ -4,14 +4,14 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
   Gamepad,
-  TrophyIcon,
+  Trophy,
   Home,
   Users,
   Wallet,
-} from "lucide-react";
+} from "lucide-react"; // ✅ correct imports
 
 const navItems = [
-  { href: "/leaderboard", label: "Leaderboard", icon: TrophyIcon },
+  { href: "/leaderboard", label: "Leaderboard", icon: Trophy },
   { href: "/game", label: "Game", icon: Gamepad },
   { href: "/", label: "Home", icon: Home },
   { href: "/invite", label: "Invite", icon: Users },
