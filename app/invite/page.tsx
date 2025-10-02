@@ -5,13 +5,10 @@ export default function InvitePage() {
   const { webApp } = useTelegram();
 
   const handleInvite = () => {
-    if (webApp && webApp.share) {
-      // ✅ Correct usage
-      webApp.share(
-        "🚀 Join me in the $SIA Coin Telegram Mini App and earn coins! " +
-        `${window.location.origin}`,
-        { to: "contacts" } // optional: "contacts" or "stories"
-      );
+    if (webApp && typeof webApp.shareApp === "function") {
+      webApp.shareApp({
+        message: "🚀 Join me in the $SIA Coin Telegram Mini App and earn coins! " + window.location.origin,
+      });
     } else {
       alert("Telegram share not available. Open inside Telegram app.");
     }
