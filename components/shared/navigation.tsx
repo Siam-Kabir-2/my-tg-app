@@ -4,7 +4,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Gamepad, Trophy, Home, Users, Wallet, LucideIcon } from "lucide-react";
 
-// Define a type for nav items
 interface NavItem {
   href: string;
   label: string;
