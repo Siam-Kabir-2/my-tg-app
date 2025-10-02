@@ -41,18 +41,16 @@ export default function HomePage() {
           Show Telegram Alert
         </button>
       </section>
-      <p>
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident repellat, odit exercitationem et explicabo corporis ratione nemo autem molestiae ab nihil sed tenetur porro quaerat, in commodi, mollitia amet quisquam.</div>
-        <div>Voluptatibus nihil quaerat magnam quidem repellat perferendis aspernatur maiores soluta ratione nemo sit, placeat voluptates facilis reiciendis ipsum excepturi harum et, tempore ad unde consectetur veniam consequatur. Libero, consequatur illo!</div>
-        <div>Aliquid nihil rerum quae, eaque quas, voluptate deserunt modi perspiciatis pariatur repellat amet tenetur? Error quis libero ipsam adipisci sit tempora dicta dolorem repellat? Esse harum dignissimos vel. Pariatur, corrupti?</div>
-        <div>Eos ipsam explicabo numquam doloremque, neque in excepturi corporis enim recusandae eveniet quam dignissimos! Excepturi nulla, exercitationem porro quo in nam sequi necessitatibus vel amet quam unde facere? Corrupti, iure.</div>
-        <div>Beatae tenetur quidem, molestiae molestias fuga qui, architecto modi quod nobis, cumque quos itaque nulla doloribus recusandae corporis harum soluta quas placeat. Modi dolore veniam, nobis qui perferendis voluptatum necessitatibus?</div>
-        <div>Fugit quos commodi sed ea iure itaque consectetur aspernatur, enim facere, reiciendis cumque doloribus recusandae sunt quae dolor voluptatem eaque quasi. Facere quibusdam aspernatur veniam fugiat commodi odio, accusamus ipsa.</div>
-        <div>Iusto quibusdam deleniti necessitatibus? Qui placeat nostrum expedita blanditiis minus error reiciendis quis quos rerum ad natus veritatis quasi neque atque esse aut, iusto at. Voluptas eaque rem eos id!</div>
-        <div>A quia est aliquid fuga quidem, nam aperiam enim sit autem! Ipsa officiis minima quaerat totam, nam illo in atque vero doloribus inventore praesentium reprehenderit aut ipsum quod fuga libero.</div>
-        <div>Voluptatum autem odio, assumenda quis excepturi velit perspiciatis fugit eaque id totam maiores dolorem doloremque sit vel unde, cum blanditiis nihil culpa. Molestiae qui veniam similique suscipit nisi mollitia aperiam!</div>
-        <div>Corporis similique ea molestias, et deserunt asperiores quidem non ratione officiis animi voluptatibus vel qui porro impedit ipsam, hic quaerat illum tempore natus. Ab, iure laborum consequatur enim voluptatem quaerat?</div>
-      </p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem maiores sequi, commodi ut, nobis mollitia ipsa quae ratione corrupti et laudantium sit accusamus consectetur? Autem suscipit asperiores quod vitae quia?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus dolorem, aperiam, accusamus debitis neque accusantium eveniet beatae at soluta, ea obcaecati amet minima animi laudantium rerum officia? Magni, velit eos?
+      Cupiditate distinctio repudiandae, ad voluptatem laudantium maiores odit! Nemo ratione deleniti qui voluptates labore error rem. Iure molestias at placeat labore nisi dolore voluptatem obcaecati, ratione numquam. Quo, quis aspernatur?
+      Reprehenderit aperiam ipsam ad atque ut iusto molestiae voluptate repellendus doloribus corporis, ab voluptatibus qui illum sapiente nesciunt dignissimos enim officia beatae, quaerat dolorem et delectus rerum illo perferendis. Eius?
+      Voluptatum molestias pariatur doloribus vitae! Culpa voluptate eveniet repellendus. Id pariatur ea error nobis cupiditate quisquam dignissimos harum earum labore nesciunt molestiae, voluptatum quibusdam, reiciendis soluta? Itaque quia facilis in!
+      Velit distinctio odio doloremque omnis iure nihil quasi debitis voluptate modi. Illo similique ducimus, fugit obcaecati illum rem error architecto? Maxime expedita vel nobis hic adipisci asperiores voluptas tenetur harum!
+      Mollitia porro perspiciatis saepe nesciunt ratione incidunt natus deserunt corrupti distinctio necessitatibus tenetur modi, consectetur earum dolores magni? Odio quas rem perspiciatis iure labore molestias ex. Porro optio repudiandae ut.
+      Quam, eos ea ipsum rerum accusamus molestiae numquam dicta tempora, dolores blanditiis laudantium ut quisquam omnis laborum deserunt repellendus. Consectetur ducimus, eius quae natus maxime harum totam sunt ex perspiciatis?
+      Atque magni quaerat aut soluta architecto amet qui animi culpa. Sint quis aut maiores eaque iste commodi minima ducimus et, magni illo modi voluptas impedit quam earum provident laudantium a.
+      Praesentium expedita illum sunt dolorum velit, error vero veniam repellat, ad modi fugit quas molestias odio porro beatae. Repellat excepturi omnis officia assumenda ad labore perspiciatis tempore nesciunt, soluta itaque!
+      Ullam illum, officia aliquam reprehenderit recusandae nulla odit placeat, iusto exercitationem id officiis, error nemo obcaecati rerum nam! Impedit pariatur recusandae dolor eveniet eum suscipit quaerat cumque esse quis velit!</p>
     </main>
   );
 }

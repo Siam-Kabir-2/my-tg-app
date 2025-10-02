@@ -2,21 +2,16 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { Gamepad, Trophy, Home, Users, Wallet, LucideIcon } from "lucide-react";
 
-import {
-  Gamepad,
-  Trophy,
-  Home,
-  Users,
-  Wallet,
-  LucideIcon
-} from "lucide-react"; // ✅ correct imports
+// Define a type for nav items
 interface NavItem {
   href: string;
   label: string;
   icon: LucideIcon;
 }
-const navItems = [
+
+const navItems: NavItem[] = [
   { href: "/leaderboard", label: "Leaderboard", icon: Trophy },
   { href: "/game", label: "Game", icon: Gamepad },
   { href: "/", label: "Home", icon: Home },
@@ -32,6 +27,7 @@ export default function Navigation() {
       {navItems.map((item) => {
         const Icon = item.icon;
         const isActive = pathname === item.href;
+
         return (
           <Link
             key={item.href}
