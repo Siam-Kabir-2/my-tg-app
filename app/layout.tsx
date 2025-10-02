@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
 import Navigation from "@/components/shared/navigation";
+import AppExpand from "@/components/shared/AppExpand";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -40,7 +41,7 @@ export default function RootLayout({
           src="https://telegram.org/js/telegram-web-app.js"
           strategy="beforeInteractive"
         />
-
+        <AppExpand />
         {/* Bottom Navigation stays fixed */}
         <Navigation />
 
