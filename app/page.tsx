@@ -41,6 +41,18 @@ export default function HomePage() {
           Show Telegram Alert
         </button>
       </section>
+      <p>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident repellat, odit exercitationem et explicabo corporis ratione nemo autem molestiae ab nihil sed tenetur porro quaerat, in commodi, mollitia amet quisquam.</div>
+        <div>Voluptatibus nihil quaerat magnam quidem repellat perferendis aspernatur maiores soluta ratione nemo sit, placeat voluptates facilis reiciendis ipsum excepturi harum et, tempore ad unde consectetur veniam consequatur. Libero, consequatur illo!</div>
+        <div>Aliquid nihil rerum quae, eaque quas, voluptate deserunt modi perspiciatis pariatur repellat amet tenetur? Error quis libero ipsam adipisci sit tempora dicta dolorem repellat? Esse harum dignissimos vel. Pariatur, corrupti?</div>
+        <div>Eos ipsam explicabo numquam doloremque, neque in excepturi corporis enim recusandae eveniet quam dignissimos! Excepturi nulla, exercitationem porro quo in nam sequi necessitatibus vel amet quam unde facere? Corrupti, iure.</div>
+        <div>Beatae tenetur quidem, molestiae molestias fuga qui, architecto modi quod nobis, cumque quos itaque nulla doloribus recusandae corporis harum soluta quas placeat. Modi dolore veniam, nobis qui perferendis voluptatum necessitatibus?</div>
+        <div>Fugit quos commodi sed ea iure itaque consectetur aspernatur, enim facere, reiciendis cumque doloribus recusandae sunt quae dolor voluptatem eaque quasi. Facere quibusdam aspernatur veniam fugiat commodi odio, accusamus ipsa.</div>
+        <div>Iusto quibusdam deleniti necessitatibus? Qui placeat nostrum expedita blanditiis minus error reiciendis quis quos rerum ad natus veritatis quasi neque atque esse aut, iusto at. Voluptas eaque rem eos id!</div>
+        <div>A quia est aliquid fuga quidem, nam aperiam enim sit autem! Ipsa officiis minima quaerat totam, nam illo in atque vero doloribus inventore praesentium reprehenderit aut ipsum quod fuga libero.</div>
+        <div>Voluptatum autem odio, assumenda quis excepturi velit perspiciatis fugit eaque id totam maiores dolorem doloremque sit vel unde, cum blanditiis nihil culpa. Molestiae qui veniam similique suscipit nisi mollitia aperiam!</div>
+        <div>Corporis similique ea molestias, et deserunt asperiores quidem non ratione officiis animi voluptatibus vel qui porro impedit ipsam, hic quaerat illum tempore natus. Ab, iure laborum consequatur enim voluptatem quaerat?</div>
+      </p>
     </main>
   );
 }
