@@ -25,6 +25,7 @@ export interface TelegramWebApp {
   themeParams: Record<string, string>;
   showAlert: (msg: string, cb?: () => void) => void;
   setBackgroundColor: (color: string) => void;
+  share: (message: string, options?: { to?: "contacts" | "stories" }) => void;
   MainButton: {
     text: string;
     isVisible: boolean;
