@@ -1,11 +1,15 @@
 "use client";
-import { useTelegram } from "@/hooks/useTelegram";
 import { useEffect } from "react";
 
-export default function AppExpand() {
-  const { webApp } = useTelegram();
+export default function TelegramFullscreen() {
   useEffect(() => {
-    if (webApp) webApp.expand();
-  }, [webApp]);
+    if (typeof window !== "undefined" && window.Telegram?.WebApp) {
+      const webApp = window.Telegram.WebApp;
+      webApp.ready();
+      webApp.expand();
+      webApp.setBackgroundColor("#1a1a1a"); // match your bg
+      webApp.MainButton.hide();
+    }
+  }, []);
   return null;
 }

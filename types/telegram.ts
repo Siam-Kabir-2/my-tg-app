@@ -24,6 +24,7 @@ export interface TelegramWebApp {
   ready: () => void;
   themeParams: Record<string, string>;
   showAlert: (msg: string, cb?: () => void) => void;
+  setBackgroundColor: (color: string) => void;
   MainButton: {
     text: string;
     isVisible: boolean;
