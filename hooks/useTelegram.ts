@@ -20,7 +20,18 @@ export function useTelegram(): UseTelegramResult {
     // Runs only in browser
     if (typeof window === "undefined") return;
     try {
-      const wa = window.Telegram?.WebApp;
+      // Prefer the installed @twa-dev/sdk when available to avoid relying on remote script
+      let wa: TelegramWebApp | undefined = undefined;
+      // dynamic import - won't run on server
+      try {
+        // @twa-dev/sdk exports a WebApp object; import it dynamically
+        // eslint-disable-next-line @typescript-eslint/no-var-requires
+        const twa = require("@twa-dev/sdk");
+        wa = twa?.WebApp;
+      } catch (err) {
+        // package not installed or import failed; fall back to global window
+        wa = window.Telegram?.WebApp as any;
+      }
       if (!wa) {
         setError("Telegram WebApp object not found (open inside Telegram).");
         setLoading(false);
